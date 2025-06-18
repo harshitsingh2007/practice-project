@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Document</title>
+   
+  <style>
+    .logo :hover {
+        color: #f0f0f0;
+        text-decoration: underline;
+    }
+    .idk {
+       background-image: url(https://www.w3schools.com/w3images/architect.jpg);
+        color:black;
+        padding: 20px;
+        text-align: center;
+        height: 800px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .cards {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+        padding: 20px;
+    }   
+    .cards div {
+        background-color: #f0f0f0;
+        border-radius: 10px;
+        overflow: hidden;
+        text-align: center;
+    }
+    .cards img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .abouts{
+       padding: 20px;
+       background-color: black;
+       color: white;
+         margin: 20px;
+         border-radius: 10px;
+    }
+
+    .ECards{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .ECards div {
+        background-color: #f0f0f0;
+        border-radius: 10px;
+        overflow: hidden;
+        text-align: center;
+    }
+    .ECards img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+    .ECards span {
+        font-weight: bold;
+        display: block;
+        margin-top: 10px;
+    }
+    .ECards p {
+        padding: 0 10px;
+        margin: 10px 0;
+    }
+    .ECards .btn {
+        display: block;
+       
+        background-color: black;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+        margin-bottom: 20px;
+    }
+
+    .ECards .btn:hover {
+        background-color: #94d2bd;
+    }
+    .contact-form {
+       background: transparent;
+       display: flex;
+       flex-direction: column;
+       gap: 10px;
+       padding: 20px;
+       border-radius: 10px;
+    }
+    .contact-form label {
+        font-weight: bold;
+    }
+    .contact-form input, .contact-form textarea {
+        width: 100%;
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+    }
+
+    .footer {
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 10px 0;
+        position: relative;
+        bottom: 0;
+        width: 100%;
+        margin-top: 20px;
+        height: 100px;
+    }
+
+  </style>
+        
+       
+</head>
+<body>
+   <header>
+        <nav class="bg-black text-white p-4 flex justify-between items-center">
+          <a href=""> <span class="logo" style="font-size: x-large;"><strong>BR</strong> Architects</span></a>
+            <ul class="flex space-x-4">
+                <li><a href="#pro">Projects</a></li>
+                <li><a href="#ser">About</a></li>
+                <li><a href="#con">Contact</a></li>
+            </ul>
+        </nav>
+</header>
+<div class="idk">
+    <p style="padding-top: 25%; font-size: xx-large;"><strong style="background-color: gray; color: white; ">BR</strong> Architects</p>
+</div>
+
+<div>
+   <p class="text-black text-2xl font-serif">Projects</p>
+</div>
+<br><hr style="background-color: grey; border-color: grey;">
+
+
+  <div class="cards" id="pro">
+    <div>
+    <img src="https://www.w3schools.com/w3images/house4.jpg" alt="">
+    <span>Barn House</span>
+    </div>
+
+    <div id="Pro">
+    <img src="https://www.w3schools.com/w3images/house2.jpg" alt="">
+    <span>SubUrban House</span>
+    </div>
+    <div>
+    <img src="https://www.w3schools.com/w3images/house5.jpg" alt="">
+    <span>Compact House</span>
+    </div>
+    <div>
+    <img src="https://www.w3schools.com/w3images/house3.jpg" alt="">
+    <span>Minimalistic House</span>
+    </div>
+    <div>
+    <img src="https://www.w3schools.com/w3images/house5.jpg" alt="">
+    <span>Barn House</span>
+    </div>
+    <div>
+    <img src="https://www.w3schools.com/w3images/house4.jpg" alt="">
+    <span>Barn House</span>
+    </div>
+    <div>
+    <img src="https://www.w3schools.com/w3images/house4.jpg" alt="">
+    <span>Barn House</span>
+    </div>
+    <div>
+    <img src="https://www.w3schools.com/w3images/house4.jpg" alt="">
+    <span>Barn House</span>
+    </div>
+    
+  </div>
+
+  <article class="abouts">
+    <h1 style="font-size: x-large;">About Us</h1>
+    <br>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti saepe nulla sunt, expedita odio dolores earum nesciunt laboriosam quibusdam debitis nostrum accusamus voluptate, distinctio ab eum maiores ea sed veniam? Eaque nemo labore non voluptate, saepe sit, dicta quaerat nesciunt necessitatibus incidunt nobis vel autem dolores error? Nobis soluta laudantium illo repellendus libero, consequatur exercitationem ea dolorum asperiores est. Sint ad facere, pariatur cumque quia maiores optio odio eaque veritatis nihil, quod molestiae ex ipsam illo possimus dolorum, officia sequi sapiente. Animi facilis vel error. Molestias officia, quisquam vitae ipsa atque reprehenderit cupiditate, maiores rem labore, minima quod aliquid praesentium odit autem qui error cumque in! Nisi voluptatum repudiandae aspernatur fugit possimus reiciendis eveniet ducimus illum, dicta eius dolore repellendus itaque totam iste a libero maiores officiis esse placeat illo modi rem consectetur? Dolor aut, at eveniet exercitationem esse consequuntur voluptatum iste molestias adipisci non quidem inventore omnis quis neque laudantium ut maiores nisi numquam ducimus, ipsam illum dolore sit? Labore possimus accusantium a iusto facere quo maiores eligendi velit? Hic harum commodi fugiat, ab magnam quos voluptate, dolore optio facilis quasi vel labore placeat soluta ad. Quam dolorem velit iste facere ex iure minima odit, esse enim necessitatibus. Nostrum!</p>
+  </article>
+
+  <div class="ECards" id="ser">
+    <div>
+        <img src="https://www.w3schools.com/w3images/team2.jpg" alt="">
+        <span>John Doe</span>
+        <p>Architect</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad cum pariatur, iste quae tempore quos. Obcaecati iste asperiores maxime atque.</p>
+        <a href="" class="btn"><span>Contact</span></a>
+    </div>
+    <div>
+        <img src="https://i8.amplience.net/i/naras/eminem.jpg.jpg" alt="">
+        <span>John Doe</span>
+        <p>Architect</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad cum pariatur, iste quae tempore quos. Obcaecati iste asperiores maxime atque.</p>
+        <a href="" class="btn"><span>Contact</span></a>
+    </div>
+    <div>
+        <img src="https://www.w3schools.com/w3images/team1.jpg" alt="">
+        <span>John Doe</span>
+        <p>Architect</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad cum pariatur, iste quae tempore quos. Obcaecati iste asperiores maxime atque.</p>
+        <a href="" class="btn"><span>Contact</span></a>
+    </div>
+    <div>
+        <img src="https://i.pinimg.com/736x/be/a3/49/bea3491915571d34a026753f4a872000.jpg" alt="">
+        <span>Strong Terry</span>
+        <p>Architect</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad cum pariatur, iste quae tempore quos. Obcaecati iste asperiores maxime atque.</p>
+        <a href="" class="btn"><span>Contact</span></a>
+    </div>
+    </div>
+
+    <h1 id="con">Contact Us</h1>
+
+   <div class="contact-form">
+       <form action="">
+           <label for="name">Name:</label>
+           <input type="text" id="name" name="name" required>
+
+           <label for="email">Email:</label>
+           <input type="email" id="email" name="email" required>
+
+           <label for="subject">Subject:</label>
+           <input type="text" id="subject" name="subject" required>
+
+           <label for="phone">Phone:</label>
+           <input type="tel" id="phone" name="phone" required>
+
+           <label for="message">Message:</label>
+           <textarea id="message" name="message" rows="4" required></textarea>
+<br><br>
+           <button type="submit" style="background-color: black; color: white; border-radius: 5px; width: 100px; height: 40px;">Send</button>
+       </form>
+
+       <div>
+        <img src="https://www.w3schools.com/w3images/map.jpg" alt="" style="margin: 10px 0;">
+       </div>
+   </div>
+
+   <footer class="footer">
+       <p>&copy; Powered by Nikhil</p>
+   </footer>
+</body>
+</html>                                                                          
+
+           
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
